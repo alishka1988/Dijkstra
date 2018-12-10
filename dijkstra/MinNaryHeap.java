@@ -159,7 +159,6 @@ public class MinNaryHeap extends Edge
   { 
 	  Edge element1=heap_data.get(indexOfelement1);
 	  Edge element2=heap_data.get(indexOfelement2);
-	 // System.out.println("distance:"+(element1.getDistance() - element2.getDistance()));
 	  return (element1.getDistance() - element2.getDistance());
 	  
   } 
@@ -174,63 +173,7 @@ public class MinNaryHeap extends Edge
 	
 	public static void main(String[] args) {
 		
-		/*
-		Scanner scan = new Scanner(System.in);
-		
-        System.out.println("Min N-ary Heap Test\n");
-        System.out.println("Enter max number of children per node:");
-        
 
-        //Creates empty heap
-        MinNaryHeap min_heap = new MinNaryHeap(scan.nextInt() );
-		
-		//print options:
-        System.out.println("Min N-ary Heap operations :");
-        System.out.println("1. Populate heap with comma-delimited list of values");
-        System.out.println("2. Delete element at index");
-        System.out.println("3. Insert new element");
-        System.out.println("4. Print heap");
-        System.out.println ("Pick an operation:");
-        
-        int option=scan.nextInt();
-		
-        
-        switch (option)
-        {
-        case 1 : 
-            try
-            {
-                System.out.println("Enter comma delimited list of numbers or characters");
-                
-               String numeric_string=
-                
-                dh.insert( scan.nextInt() ); 
-            }
-            catch (Exception e)
-            {
-                System.out.println(e.getMessage() );
-            }
-            break;                          
-        case 2 : 
-            try
-		
-		ArrayList my_list = new ArrayList ();
-		my_list =  new ArrayList  ( Arrays.asList(10.5,20.4,1.1,5.3,4.1,3.7,3.6,10.1,5.0,6.0,3.6));
-	       MinKaryHeap heap = new MinKaryHeap(my_list, 2 );
-
-       MinKaryHeap heap = new MinKaryHeap(8, 2 );
-       // heap.insertIntoHeap(5.0);
-       // heap.insertIntoHeap(2.0);
-      //  heap.insertIntoHeap(1.0);
-
-
-        heap.traverseHeap(0);
-	       heap.deleteFromHeap(0);
-	       heap.traverseHeap(0);
-	       heap.traverseHeap(1);
-//System.out.print(heap.heap_size+","+my_list.size());
-	}
-	*/
 	}
 }
 
